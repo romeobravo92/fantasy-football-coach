@@ -1,0 +1,19 @@
+Other features that have not been fully fleshed out yet are as follows:
+
+Consistency rating. 
+
+This one is fairly simple overall, but instead of showing an average for points scored, I want to show a true reliability rating. 
+  This can be done through shwoing the mean, median, mode and range. Then developing a rating based on how far apart each of these numbers are. 
+  
+  
+Reliability rating.
+  
+ This is a bit more difficult. Here I want to show how likely or possible it is for a player to get injured, ejected, or benched in any given game. 
+ Things to research:
+        Injury breakdown by position
+        Injury breakdown by gamenight situation (Monday Night Game, Thursday Night Game, Holiday Game, Game needed for playoff berth)
+        Injury breakdown by location (Home, Away, International)
+        Injury breakdown by mathcup (Does opposing team tend to injure players more commonly?)
+        Injury breakdown by scenario (garbage time, chew clock)
+        Injury breakdown by playtype (scramble, route styles etc)
+
