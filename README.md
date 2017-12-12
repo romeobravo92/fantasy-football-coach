@@ -11,3 +11,5 @@ Features will (hopefully) include the following;
   4. Salaries and salary caps
   
 I am currently in the very early planning stages and would greatly appreciate some help with this if anyone is interested. 
+
+If you are interested please send me an email at romeobravo92@gmail.com
