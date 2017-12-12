@@ -1,0 +1,17 @@
+The average roster will be comprised of the following. 
+
+Offense: QB, RB, WR, TE
+Defense: DL, LB, DB
+Special Teams: K
+
+You may have any number of players from each position on your team, though you will only get points for a set amount of them (determined by the model)
+
+The standard depth chart for the percentage model is as follows;
+
+QB1:100%    RB1:100%    WR1:100%    TE1:100%
+QB2:50%     RB2:100%    WR2:100%    TE2:50%
+QB3:0%      RB3:50%     WR3:50%     TE3:0%
+            *RB4:0%     *WR4:0%
+
+If you have more than the above examples in any position, they will be ordered in your depth chart, but will be at a constant 0% added to score. 
+  *Player is ineligible for bonuses basedd on gameplan. Any players beneath them in the depth chart will also be ineligible 
