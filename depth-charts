@@ -1,0 +1,38 @@
+Depth Chart Details
+
+The goal of adding a depth chart is to try and add some realism and options to guard against things like injuries, ejections, and poor performance. 
+  In a real NFL game, you would have multiple players at each position and be able to swap them in or out accordingly. 
+  
+  Currently there are two ideas for this. One is the percentage model, and the other is the quarterly model. 
+  
+    Percentage model;
+      With the percentage model, you would set your depth chart and order your players. If you had five running backs on your team then the percentage breakdown would be;
+        RB1 = 100% of points scored gets added to total team score. 
+        RB2 = 100% of points scored gets added to total team score. 
+        RB3 = 50% of points scored gets added to total team score. 
+        RB4 = 0% of points scored gets added to total team score. 
+        RB5 = 0% of points scored gets added to total team score. 
+              **Percentages are approximate and not final. 
+    
+      For example:
+        RB1 scores 25 points
+        RB2 scores 15 points
+        RB3 scores 10 points
+        RB4 scores 4 points
+        RB5 scores 4 points
+        
+        Team RB score would be 45 points. 
+        
+    
+    Quarterly Model;
+      The quarterly model is aimed at setting up a pre-planned gameplan and exectuing it before final scores are posted. Based on each player's quarterly scoring.
+      
+      For example; 
+          IF Player Quarterly Score is = 0 THEN Moved to next player. 
+          
+                                |Q1| |Q2| |Q3| |Q4|   |Total|
+        RB1 : Ezekiel Elliott   |05| |07| |06| |00|   | 18  |
+        RB2 : Carlos Hyde       |06| |02| |03| |04|   | 15  |
+        Team RB Score:          |05| |07| |06| |04|   | 22  |
+              **This would not allow backtracking if a player enters back into the game. 
+        
