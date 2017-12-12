@@ -28,11 +28,12 @@ The goal of adding a depth chart is to try and add some realism and options to g
       The quarterly model is aimed at setting up a pre-planned gameplan and exectuing it before final scores are posted. Based on each player's quarterly scoring.
       
       For example; 
-          IF Player Quarterly Score is = 0 THEN Moved to next player. 
+          IF Player Quarterly Score is = 0 THEN Moved to next player. (This part would be set in gameplans)
           
                                 |Q1| |Q2| |Q3| |Q4|   |Total|
         RB1 : Ezekiel Elliott   |05| |07| |06| |00|   | 18  |
         RB2 : Carlos Hyde       |06| |02| |03| |04|   | 15  |
         Team RB Score:          |05| |07| |06| |04|   | 22  |
               **This would not allow backtracking if a player enters back into the game. 
+              **Would need to work out a way to prevent players with a slow start from getting unnecessarily benched.
         
